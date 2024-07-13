@@ -1,2 +1,11 @@
-
-<h4>Hello Akshay</h4>
+<div class="landing-page-wrapper">
+    <p-carousel [value]="images" [autoplayInterval]="1000">
+        <ng-template let-images pTemplate="item">
+            <div class="product-item">
+                <div class="product-item-content">
+                    <img [src]="images.previewImageSrc" [alt]="images.alt" [title]="images.title">
+                </div>
+            </div>
+        </ng-template>
+    </p-carousel>
+</div>
