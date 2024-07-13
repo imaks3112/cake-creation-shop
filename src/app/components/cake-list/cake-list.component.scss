@@ -1,0 +1,33 @@
+
+.cake-list-wrapper {
+    display: flex;
+    
+    .card {
+        width: 25%;
+        margin: 1rem;
+        display: flex;
+        height: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        .image-wrapper {
+            // height: 65%;
+        }
+
+        .product-details {
+            border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
+            
+            .product-price {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                text-align: center;
+
+                span {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #181818;
+                }
+            }
+        }
+    }
+}

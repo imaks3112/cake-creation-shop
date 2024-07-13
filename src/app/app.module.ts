@@ -6,19 +6,22 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { CakeListComponent } from './components/cake-list/cake-list.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     CakeListComponent,
-    NavbarComponent
+    NavbarComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NgbTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
