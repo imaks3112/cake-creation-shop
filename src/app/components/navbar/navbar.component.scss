@@ -1,13 +1,15 @@
 
 .navbar-wrapper {
+    .container-fluid {
+        span {
+            padding: 0.5rem;
+        }
+    }
     .right-side {
         i {
             padding: 0.5rem;
             cursor: pointer;
         }
-        // i:hover {
-        //     background-color:cadetblue;
-        // }
     }
 }
 

@@ -1,33 +1,58 @@
-
 .cake-list-wrapper {
-    display: flex;
-    
-    .card {
-        width: 25%;
-        margin: 1rem;
-        display: flex;
-        height: 300px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .card-item-wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        column-gap: 2rem;
+        row-gap: 2rem;
 
-        .image-wrapper {
-            // height: 65%;
-        }
+        .card-item {
+            min-height: 8rem;
+            height: 26rem;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            box-shadow:
+                0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-        .product-details {
-            border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
-            
-            .product-price {
-                display: flex;
-                align-items: center;
-                flex-direction: row;
-                text-align: center;
+            .image-wrapper {
+                width: 100%;
+                height: 80%;
 
-                span {
-                    font-size: 14px;
-                    font-weight: 600;
-                    color: #181818;
+                img {
+                    height: auto;
+                    width: 65%;
                 }
             }
+
+            .other-product-details {
+                padding: 0 10px;
+
+                .product-name {
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    color: #1c2120;
+                    opacity: .75;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+    
+                .price-offer {
+                    display: flex;
+                    align-items: center;
+    
+                    .prod_price {
+                        font-size: 16px;
+                        font-weight: 500;
+                        span {
+                            font-family: Poppins,sans-serif;
+                        }
+                    }
+                }
+            }
+
         }
     }
 }
