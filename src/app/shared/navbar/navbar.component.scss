@@ -1,5 +1,10 @@
-
 .navbar-wrapper {
+    margin-bottom: 1rem;
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+    }
+
     .container-fluid {
         span {
             padding: 0.5rem;
@@ -11,9 +16,4 @@
             cursor: pointer;
         }
     }
-}
-
-
-.cake-list {
-    padding: 2rem;
 }
