@@ -11,6 +11,7 @@ const routes: Routes = [
     children: [
       {path: '', component: HomeComponent},
       {path: 'birthday', component: CakeListComponent},
+      {path: 'chocolate', component: CakeListComponent},
       {path: '**', component: PageNotFoundComponent}
     ]
   }
