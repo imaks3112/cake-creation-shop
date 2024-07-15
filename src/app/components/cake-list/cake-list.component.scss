@@ -3,13 +3,13 @@
 
     .card-item-wrapper {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         column-gap: 2rem;
         row-gap: 2rem;
 
         .card-item {
             min-height: 8rem;
-            height: 26rem;
+            height: 30rem;
             border-radius: 20px;
             overflow: hidden;
             position: relative;
@@ -17,9 +17,20 @@
                 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+            .personalised-gift {
+                padding: 6px 10px;
+                font-size: 12px;
+                border-radius: 16px 0;
+                font-weight: 600;
+                background: #124D64;
+                position: absolute;
+                color: #fff;
+                z-index: 1;
+            }
+
             .image-wrapper {
                 width: 100%;
-                height: 80%;
+                height: 70%;
                 overflow: hidden;
                 transition: all 5s ease-in-out;
 
@@ -34,17 +45,22 @@
             }
 
             .other-product-details {
-                padding: 0 10px;
+                padding: 15px;
+                display: flex;
+                flex-direction: column;
+                grid-gap: 5px;
 
                 .product-name {
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 24px;
-                    color: #1c2120;
-                    opacity: .75;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
+                    span {
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        color: #1c2120;
+                        opacity: .75;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
                 }
     
                 .price-offer {
@@ -57,6 +73,71 @@
                         span {
                             font-family: Poppins,sans-serif;
                         }
+                    }
+                }
+
+                .product-rating {
+                    box-shadow: none;
+                    width: auto;
+                    border-radius: 0;
+                    background: none;
+                    padding: 0;
+                    margin: 0;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                
+                    .starImgNum {
+                        border-radius: 6px;
+                        background: #4caf50;
+                        padding: 1px 7px 1px 5px;
+                        display: inline-flex;
+                        align-items: center;
+                
+                        .starImage {
+                            color: #fff;
+                            font-size: 17px;
+                        }
+                
+                        .starNum {
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 12px;
+                            color: #fff;
+                        }
+                    }
+                
+                    .desk-review-dot {
+                        border: 1px solid #ccc;
+                        border-radius: 50px;
+                        height: 4px;
+                        width: 4px;
+                        background-color: #ccc;
+                        position: relative;
+                        margin: 0 0 0 6px;
+                    }
+                
+                    .starCount {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #197889;
+                        margin-left: 6px;
+                        text-transform: capitalize;
+                    }
+                }
+
+                .block-earliest {
+                    padding: 0;
+                    color: #494d4d;
+                    font-size: 12px;
+                    font-weight: 500;
+
+                    .earliest-val {
+                        color: #197889;
+                        font-weight: 600;
+                        font-size: 12px;
                     }
                 }
             }

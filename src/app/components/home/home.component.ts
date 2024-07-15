@@ -8,15 +8,15 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   images: any[] = [
     {
-      previewImageSrc:'../../../assets/img/cake_creation_21.jpg',
-      thumbnailImageSrc:'../../../assets/img/cake_creation_22.jpg',
-      alt: 'Cascading Style Sheet',
-      title: 'cake',
-    },
-    {
       previewImageSrc:'../../../assets/img/cake_creation_22.jpg',
       thumbnailImageSrc:'../../../assets/img/cake_creation_22.jpg',
       alt: 'Angular for Front end',
+      title: 'cake',
+    },
+    {
+      previewImageSrc:'../../../assets/img/cake_creation_21.jpg',
+      thumbnailImageSrc:'../../../assets/img/cake_creation_22.jpg',
+      alt: 'Cascading Style Sheet',
       title: 'cake',
     },
     {
