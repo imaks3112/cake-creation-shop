@@ -14,9 +14,16 @@
         }
     }
     .right-side {
+        display: flex;
+        column-gap: 15px;
+        padding: 10px 0px;
+
         i {
-            padding: 0.5rem;
             cursor: pointer;
+        }
+
+        span {
+            display: inherit;
         }
     }
 }

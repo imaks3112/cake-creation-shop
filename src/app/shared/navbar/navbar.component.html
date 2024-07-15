@@ -15,10 +15,28 @@
   
       <div class="right-side">
   
-        <i class="pi pi-sitemap" style="font-size: 2rem" pTooltip="My tooltip"></i>
-        <i class="pi pi-cart-plus" style="font-size: 2rem" pTooltip="My tooltip"></i>
-        <i class="pi pi-user-plus" style="font-size: 2rem" pTooltip="My tooltip"></i>
-        <i class="pi pi-spin pi-cog" style="font-size: 2rem" pTooltip="My tooltip"></i>
+        <div class="site-map">
+          <i class="pi pi-sitemap" style="font-size: 2rem" pTooltip="My tooltip"></i>
+          <!-- <span>Track order</span> -->
+        </div>
+        
+        <div class="cart-list">
+          <button type="button" class="btn btn-light position-relative">
+            <i class="pi pi-cart-plus" style="font-size: 2rem" pTooltip="My tooltip"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              4+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+        </div>
+
+        <div class="user-info">
+          <i class="pi pi-user-plus" style="font-size: 2rem" pTooltip="My tooltip"></i>
+        </div>
+
+        <div class="settings">
+          <i class="pi pi-spin pi-cog" style="font-size: 2rem" pTooltip="My tooltip"></i>
+        </div>
       </div>
     </div>
   </nav>
