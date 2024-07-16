@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NavbarComponent } from './shared/navbar/navbar.component';
-import { CakeListComponent } from './components/cake-list/cake-list.component';
+import { NavbarComponent } from './shared/private/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
-import { LoginComponent } from './shared/login/login.component';
+import { LoginComponent } from './shared/private/login/login.component';
 import { authGuard } from './guard/auth.guard';
-import { RegisterComponent } from './shared/register/register.component';
+import { RegisterComponent } from './shared/private/register/register.component';
+import { BirthdayComponent } from './components/birthday/birthday.component';
+import { ChocolateComponent } from './components/chocolate/chocolate.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, canActivate: [authGuard] },
@@ -16,8 +17,8 @@ const routes: Routes = [
     component: NavbarComponent,
     children: [
       { path: '', component: HomeComponent },
-      { path: 'birthday', component: CakeListComponent },
-      { path: 'chocolate', component: CakeListComponent },
+      { path: 'birthday', component: BirthdayComponent },
+      { path: 'chocolate', component: ChocolateComponent },
       { path: '**', redirectTo: '' },
     ],
   },
