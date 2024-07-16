@@ -1,10 +1,5 @@
 import { Injectable } from '@angular/core';
-import {
-  BehaviorSubject,
-  lastValueFrom,
-  map,
-  Observable,
-} from 'rxjs';
+import { BehaviorSubject, lastValueFrom, map, Observable } from 'rxjs';
 import { User } from '../models/user';
 import { HttpClient } from '@angular/common/http';
 
