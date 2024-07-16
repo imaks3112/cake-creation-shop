@@ -7,6 +7,9 @@ import { authGuard } from './guard/auth.guard';
 import { RegisterComponent } from './shared/private/register/register.component';
 import { BirthdayComponent } from './components/birthday/birthday.component';
 import { ChocolateComponent } from './components/chocolate/chocolate.component';
+import { OccasionsComponent } from './components/occasions/occasions.component';
+import { BestSellersComponent } from './components/best-sellers/best-sellers.component';
+import { BakeryComponent } from './components/bakery/bakery.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, canActivate: [authGuard] },
@@ -18,6 +21,9 @@ const routes: Routes = [
     children: [
       { path: '', component: HomeComponent },
       { path: 'birthday', component: BirthdayComponent },
+      { path: 'occasions', component: OccasionsComponent },
+      { path: 'best-sellers', component: BestSellersComponent },
+      { path: 'bakery', component: BakeryComponent },
       { path: 'chocolate', component: ChocolateComponent },
       { path: '**', redirectTo: '' },
     ],

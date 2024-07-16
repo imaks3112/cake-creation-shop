@@ -1,46 +1,44 @@
 <div class="cake-list-wrapper">
-    <div class="container">
-        <div class="card-item-wrapper">
-            <ng-container *ngFor="let cake of cakeList">
-                <div class="card-item">
-                    <div class="personalised-gift">
-                        Best Seller
+    <div class="card-item-wrapper">
+        <ng-container *ngFor="let cake of cakeList">
+            <div class="card-item">
+                <div class="personalised-gift">
+                    Best Seller
+                </div>
+
+                <div class="image-wrapper">
+                    <img [src]="cake.imageurl" alt="" width="100" height="100" class="d-inline-block align-text-top">
+                </div>
+
+                <div class="other-product-details">
+                    <div class="product-name">
+                        <span>{{cake.name}}</span>
                     </div>
 
-                    <div class="image-wrapper">
-                        <img [src]="cake.imageurl" alt="" width="100" height="100" class="d-inline-block align-text-top">
+                    <div class="price-offer">
+                        <span class="prod_price"> <span> ₹ </span> {{cake.price}}</span>
                     </div>
-    
-                    <div class="other-product-details">
-                        <div class="product-name">
-                            <span>{{cake.name}}</span>
-                        </div>
-        
-                        <div class="price-offer">
-                            <span class="prod_price"> <span> ₹ </span> {{cake.price}}</span>
-                        </div>
-        
-                        <!-- <div class="add-to-cart-product">
+
+                    <!-- <div class="add-to-cart-product">
                             Add to cart
                             <i class="pi pi-plus-circle" style="font-size: 1rem"></i>
                         </div> -->
-    
-                        <div class="product-rating">
-                            <div class="starImgNum">
-                                <span class="starImage">★</span>
-                                <span class="starNum">4.9</span>
-                            </div>
-                            <div class="desk-review-dot"></div>
-    
-                            <div class="starCount">(38)</div>
-                        </div>
 
-                        <div class="block-earliest">
-                            Earliest Delivery : <span class="earliest-val">Today</span>
+                    <div class="product-rating">
+                        <div class="starImgNum">
+                            <span class="starImage">★</span>
+                            <span class="starNum">4.9</span>
                         </div>
+                        <div class="desk-review-dot"></div>
+
+                        <div class="starCount">(38)</div>
+                    </div>
+
+                    <div class="block-earliest">
+                        Earliest Delivery : <span class="earliest-val">Today</span>
                     </div>
                 </div>
-            </ng-container>
-        </div>
+            </div>
+        </ng-container>
     </div>
 </div>
