@@ -5,8 +5,11 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
 import { CakeListComponent } from './components/cake-list/cake-list.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './shared/login/login.component';
+import { authGuard } from './guard/auth.guard';
+
 
 const routes: Routes = [
+  { path: '', component: HomeComponent, canActivate: [authGuard] },
   {
     path: 'login', component: LoginComponent,
   },
@@ -16,7 +19,7 @@ const routes: Routes = [
       {path: '', component: HomeComponent},
       {path: 'birthday', component: CakeListComponent},
       {path: 'chocolate', component: CakeListComponent},
-      {path: '**', component: PageNotFoundComponent}
+      {path: '**', redirectTo: ''}
     ]
   }
 ];
