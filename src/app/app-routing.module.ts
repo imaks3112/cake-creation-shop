@@ -22,7 +22,7 @@ const routes: Routes = [
       { path: 'home', component: HomeComponent },
       { path: 'birthday', component: BirthdayComponent },
       { path: 'occasions', component: OccasionsComponent },
-      { path: 'best-sellers', component: BestSellersComponent },
+      { path: 'bestsellers', component: BestSellersComponent },
       { path: 'bakery', component: BakeryComponent },
       { path: 'chocolate', component: ChocolateComponent },
       { path: '**', redirectTo: '' },
