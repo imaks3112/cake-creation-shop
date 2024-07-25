@@ -1,0 +1,556 @@
+{
+  "cakes": {
+    "birthday": [
+      {
+        "id": 1,
+        "name": "Birthday cake",
+        "price": 500,
+        "best_sell": true,
+        "product_rate": 4.9,
+        "deliveryTime": "Today",
+        "imageurl": "../../../assets/img/cake_creation_13.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Birthday cake",
+        "price": 4500,
+        "best_sell": true,
+        "product_rate": 4.9,
+        "deliveryTime": "Today",
+        "imageurl": "../../../assets/img/cake_creation_7.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Birthday cake",
+        "price": 350,
+        "best_sell": false,
+        "product_rate": 4.9,
+        "deliveryTime": "Today",
+        "imageurl": "../../../assets/img/cake_creation_10.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Birthday cake",
+        "price": 500,
+        "best_sell": false,
+        "product_rate": 4.9,
+        "deliveryTime": "Today",
+        "imageurl": "../../../assets/img/cake_creation_11.jpg"
+      }
+    ]
+  },
+  "birthday": [
+    {
+      "id": 1,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_13.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Birthday cake",
+      "price": 4500,
+      "best_sell": false,
+      "product_rate": 4.8,
+      "deliveryTime": "After 2 days",
+      "imageurl": "../../../assets/img/cake_creation_7.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birthday cake",
+      "price": 350,
+      "best_sell": true,
+      "product_rate": 3.9,
+      "deliveryTime": "Tommorrow",
+      "imageurl": "../../../assets/img/cake_creation_10.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_11.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Birthday cake",
+      "price": 2500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_6.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_10.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_11.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_6.jpg"
+    }
+  ],
+  "occasion": [
+    {
+      "id": 1,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_13.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Birthday cake",
+      "price": 4500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_7.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birthday cake",
+      "price": 350,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_10.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_11.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Birthday cake",
+      "price": 2500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_6.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_10.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_11.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/cake_creation_6.jpg"
+    }
+  ],
+  "best_sellers": [
+    {
+      "id": 1,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Choclate cake",
+      "price": 4500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_8.png"
+    },
+    {
+      "id": 3,
+      "name": "Choclate cake",
+      "price": 350,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Choclate cake",
+      "price": 2500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_5.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_7.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_8.png"
+    },
+    {
+      "id": 5,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_2.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_3.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_4.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_5.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_8.png"
+    },
+    {
+      "id": 5,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_6.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_3.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate_4.jpg"
+    }
+  ],
+  "bakery": [
+    {
+      "id": 1,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/bakery/bakeryproducts_09.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Birthday cake",
+      "price": 4500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/bakery/bakeryproducts_01.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birthday cake",
+      "price": 350,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/bakery/bakeryproducts_03.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/bakery/bakeryproducts_04.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Birthday cake",
+      "price": 2500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/bakery/bakeryproducts_05.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/bakery/bakeryproducts_06.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/bakery/bakeryproducts_07.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Birthday cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/bakery/bakeryproducts_08.jpg"
+    }
+  ],
+  "chocolates": [
+    {
+      "id": 1,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Choclate cake",
+      "price": 4500,
+      "best_sell": true,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_8.png"
+    },
+    {
+      "id": 3,
+      "name": "Choclate cake",
+      "price": 350,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Choclate cake",
+      "price": 2500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_5.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_7.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_8.png"
+    },
+    {
+      "id": 5,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_2.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_3.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_4.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_5.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_8.png"
+    },
+    {
+      "id": 5,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_6.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_3.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Choclate cake",
+      "price": 500,
+      "best_sell": false,
+      "product_rate": 4.9,
+      "deliveryTime": "Today",
+      "imageurl": "../../../assets/img/chocolate/chocolate_4.jpg"
+    }
+  ]
+}

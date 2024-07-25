@@ -2,8 +2,8 @@
     <div class="card-item-wrapper">
         <ng-container *ngFor="let cake of cakeList">
             <div class="card-item">
-                <div class="personalised-gift">
-                    Best Seller
+                <div class="personalised-gift" *ngIf="cake?.best_sell">
+                    {{cake?.best_sell ? 'Best Seller' : ''}}
                 </div>
 
                 <div class="image-wrapper">
@@ -27,7 +27,7 @@
                     <div class="product-rating">
                         <div class="starImgNum">
                             <span class="starImage">★</span>
-                            <span class="starNum">4.9</span>
+                            <span class="starNum">{{cake?.product_rate}}</span>
                         </div>
                         <div class="desk-review-dot"></div>
 
@@ -35,7 +35,7 @@
                     </div>
 
                     <div class="block-earliest">
-                        Earliest Delivery : <span class="earliest-val">Today</span>
+                        Earliest Delivery : <span class="earliest-val">{{cake?.deliveryTime}}</span>
                     </div>
                 </div>
             </div>
