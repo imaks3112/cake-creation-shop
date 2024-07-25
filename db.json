@@ -195,7 +195,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_2.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_2.jpg"
     },
     {
       "id": 2,
@@ -204,7 +204,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_8.png"
+      "imageurl": "../../../assets/img/chocolate/chocolate_8.png"
     },
     {
       "id": 3,
@@ -213,7 +213,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_3.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_3.jpg"
     },
     {
       "id": 4,
@@ -222,7 +222,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_4.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_4.jpg"
     },
     {
       "id": 5,
@@ -231,7 +231,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_5.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_5.jpg"
     },
     {
       "id": 3,
@@ -240,7 +240,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_7.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_7.jpg"
     },
     {
       "id": 4,
@@ -249,7 +249,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_8.png"
+      "imageurl": "../../../assets/img/chocolate/chocolate_8.png"
     },
     {
       "id": 5,
@@ -258,7 +258,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_2.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_2.jpg"
     },
     {
       "id": 1,
@@ -267,7 +267,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_3.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_3.jpg"
     },
     {
       "id": 2,
@@ -276,7 +276,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_4.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_4.jpg"
     },
     {
       "id": 3,
@@ -285,7 +285,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_5.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_5.jpg"
     },
     {
       "id": 4,
@@ -294,7 +294,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_8.png"
+      "imageurl": "../../../assets/img/chocolate/chocolate_8.png"
     },
     {
       "id": 5,
@@ -303,7 +303,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_6.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_6.jpg"
     },
     {
       "id": 3,
@@ -312,7 +312,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_2.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_2.jpg"
     },
     {
       "id": 4,
@@ -321,7 +321,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_3.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_3.jpg"
     },
     {
       "id": 5,
@@ -330,7 +330,7 @@
       "best_sell": true,
       "product_rate": 4.9,
       "deliveryTime": "Today",
-      "imageurl": "../../../assets/img/chocolate_4.jpg"
+      "imageurl": "../../../assets/img/chocolate/chocolate_4.jpg"
     }
   ],
   "bakery": [
